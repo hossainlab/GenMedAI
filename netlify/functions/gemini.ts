@@ -1,11 +1,13 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { Handler } from "@netlify/functions";
 
-if (!process.env.API_KEY) {
-    throw new Error("API_KEY environment variable not set in Netlify build environment.");
+const apiKey = process.env.API_KEY || process.env.GEMINI_API_KEY;
+
+if (!apiKey) {
+    throw new Error("API_KEY or GEMINI_API_KEY environment variable not set.");
 }
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey });
 
 const analysisSchema = {
     type: Type.OBJECT,
