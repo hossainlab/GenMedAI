@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "WebSearch",
+      "Bash(cat:*)",
+      "Bash(npm run netlify-dev:*)",
+      "Bash(netlify dev:*)",
+      "Bash(npx netlify:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "acceptEdits"
+  }
+}

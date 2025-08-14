@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#1e293b"/>
+  
+  <!-- Drug pill icon -->
+  <path d="m12.5 26.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z" fill="#3b82f6"/>
+  <path d="m10.5 10.5 7 7" stroke="#93c5fd" stroke-width="2"/>
+</svg>

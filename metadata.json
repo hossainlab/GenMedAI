@@ -1,0 +1,5 @@
+{
+  "name": "GenoMed",
+  "description": "A prototype for a Generative AI Drug Discovery tool, powered by Gemini, aimed at accelerating biomedical research.",
+  "requestFramePermissions": []
+}
